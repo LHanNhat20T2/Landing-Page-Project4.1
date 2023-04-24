@@ -20,24 +20,32 @@ body {
 :root {
     --secondary-font: "Sora", sans-serif;
     --primary-color: #ff5b2e;
+
     --light-primary-color: #ffefe7;
     --secondary-color: #000958;
     --light-secondary-color: #48496a;
+    --lighter-secondary-color: #656689;
     --bg-color: #fffaf5;
     --bg-medium-color: #fff6ed;
     --orange-color: #fc8e67;
+    --orange-dark-color: #ff997e;
+    --orange-light-color: #fe997b;
     --text-color: #656689;
     --text-medium-color: #3f4065;
     --light-blue-color: #5e6085;
     --yellow-color: #fec23f;
+    --yellow-dark-color: #ffda54;
     --blue-color: #80c2fa;
+    --blue-dark-color: #90ccff;
     --blue-lighter-color: #181e52;
     --blue-light-color: #5e6085;
     --gray-color: #ebebf2;
     --light-gray-color: #f2f2f2;
     --pinky-color: #fbd0de;
+    --pinky-dark-color: #faa7ad;
     --teal-color: #5bd6e2;
     --light-teal-color: #c6f4f9;
+    --black-medium-color: #282828;
 }
 
 /* Common */
@@ -155,6 +163,19 @@ button {
 .btn--rounded:hover {
     color: white;
     background: var(--primary-color);
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    box-shadow: 0px 5px 27px rgba(255, 91, 46, 0.3);
+    color: white;
+    cursor: pointer;
 }
 
 .line-clamp {
